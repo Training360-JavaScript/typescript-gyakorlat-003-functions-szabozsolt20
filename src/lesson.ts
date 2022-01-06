@@ -45,8 +45,8 @@ export default class Calculator {
      * @param {User} user - az objektum.
      * @returns {any} a kulcs alapján kiolvasott tulajdonság értéke.
      */
-     getProperty(User: {name: string, email: string}): any {
-         return User.name;
+     getProperty(user: {name: string, email: string}): any {
+         return user.name;
      }
 
 }
